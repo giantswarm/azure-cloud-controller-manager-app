@@ -39,7 +39,7 @@ spec:
         - --allocate-node-cidrs=true
         - --cloud-config=/etc/kubernetes/config/azure.yaml
         - --cloud-provider=azure
-        - --cluster-cidr=10.0.128.0/17
+        - --cluster-cidr={{ .Values.calico.CIDR }}
         - --configure-cloud-routes=true
         - --controllers=*,-cloud-node
         - --use-service-account-credentials=true
@@ -47,7 +47,7 @@ spec:
         #- --service-cluster-ip-range=
         - --kubeconfig=/etc/kubernetes/kubeconfig/controller-manager.yaml
         - --root-ca-file=/etc/kubernetes/ssl/apiserver-ca.pem
-        - --master=https://g8s.gremlin.germanywestcentral.azure.gigantic.io:443
+        - --master=https://kubernetes.default:443
         - --logtostderr=true
         - --v=2
         securityContext:

@@ -18,6 +18,10 @@ resources:
     cpu: 200m
     memory: 200Mi
 
+cluster:
+  calico:
+    CIDR: 192.168.0.0/16
+
 test:
   image:
     name: giantswarm/alpine-testing
