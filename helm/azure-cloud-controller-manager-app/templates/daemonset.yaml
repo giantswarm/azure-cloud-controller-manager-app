@@ -1,0 +1,73 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: {{ .Values.name }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    {{- include "labels.common" . | nindent 4 }}
+spec:
+  updateStrategy: {{ toYaml .Values.updateStrategy | nindent 4 }}
+  selector:
+    matchLabels:
+      {{- include "labels.selector" . | nindent 6 }}
+  template:
+    metadata:
+      labels:
+        {{- include "labels.common" . | nindent 8 }}
+    spec:
+      priorityClassName: system-cluster-critical
+      securityContext:
+        runAsUser: 0
+        runAsGroup: 0
+      serviceAccountName: {{ .Values.name }}
+      hostNetwork: false
+      dnsPolicy: Default  # Don't use cluster DNS.
+      tolerations:
+      - effect: NoSchedule
+        operator: "Exists"
+        key: node-role.kubernetes.io/master
+      nodeSelector:
+        node-role.kubernetes.io/master: ""
+      containers:
+      - name: node-cache
+        image: "{{ .Values.image.registry }}/{{ .Values.image.name }}:{{ .Values.image.tag }}"
+        {{- if .Values.resources }}
+        resources: {{ toYaml .Values.resources | nindent 8 }}
+        {{- end }}
+        args:
+        - --profiling=false
+        - --allocate-node-cidrs=true
+        - --cloud-config=/etc/kubernetes/config/azure.yaml
+        - --cloud-provider=azure
+        - --cluster-cidr=10.0.128.0/17
+        - --configure-cloud-routes=true
+        - --controllers=*,-cloud-node
+        - --use-service-account-credentials=true
+        - --node-cidr-mask-size=24
+        #- --service-cluster-ip-range=
+        - --kubeconfig=/etc/kubernetes/kubeconfig/controller-manager.yaml
+        - --root-ca-file=/etc/kubernetes/ssl/apiserver-ca.pem
+        - --master=https://g8s.gremlin.germanywestcentral.azure.gigantic.io:443
+        - --logtostderr=true
+        - --v=2
+        securityContext:
+          allowPrivilegeEscalation: false
+          privileged: false
+        volumeMounts:
+        - mountPath: /etc/kubernetes/
+          name: etc-kubernetes
+          readOnly: true
+        {{- if .Values.resources }}
+        resources: {{ toYaml .Values.resources | nindent 10 }}
+        {{- end }}
+        livenessProbe:
+          httpGet:
+            host: 127.0.0.1
+            path: /healthz
+            port: 10251
+          initialDelaySeconds: 15
+          timeoutSeconds: 15
+      volumes:
+      - hostPath:
+          path: /etc/kubernetes
+        name: etc-kubernetes
