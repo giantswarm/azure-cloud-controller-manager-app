@@ -11,6 +11,7 @@ spec:
   allowedCapabilities: []
   volumes:
     - 'hostPath'
+    - 'projected'
   hostNetwork: false
   hostIPC: false
   hostPID: false
