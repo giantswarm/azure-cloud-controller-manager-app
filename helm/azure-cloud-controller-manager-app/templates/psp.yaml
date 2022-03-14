@@ -12,7 +12,7 @@ spec:
   volumes:
     - 'hostPath'
     - 'projected'
-  hostNetwork: false
+  hostNetwork: true
   hostIPC: false
   hostPID: false
   hostPorts: []
