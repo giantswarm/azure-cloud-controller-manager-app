@@ -44,7 +44,6 @@ spec:
         - --controllers=*,-cloud-node
         - --use-service-account-credentials=true
         - --node-cidr-mask-size=24
-        #- --service-cluster-ip-range=
         - --kubeconfig=/etc/kubernetes/kubeconfig/controller-manager.yaml
         - --master=https://kubernetes.default:443
         - --logtostderr=true
