@@ -18,6 +18,9 @@ resources:
     cpu: 200m
     memory: 200Mi
 
+ports:
+  healthcheck: 10267
+
 cluster:
   calico:
     CIDR: 192.168.0.0/16

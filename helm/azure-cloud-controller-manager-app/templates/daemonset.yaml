@@ -47,6 +47,7 @@ spec:
         - --kubeconfig=/etc/kubernetes/kubeconfig/controller-manager.yaml
         - --master=https://kubernetes.default:443
         - --logtostderr=true
+        - --port={{ .Values.ports.healthcheck }}
         - --v=2
         securityContext:
           allowPrivilegeEscalation: false
@@ -62,7 +63,7 @@ spec:
           httpGet:
             host: 127.0.0.1
             path: /healthz
-            port: 10251
+            port: {{ .Values.ports.healthcheck }}
           initialDelaySeconds: 15
           timeoutSeconds: 15
       volumes:
