@@ -39,7 +39,7 @@ spec:
         - --allocate-node-cidrs=true
         - --cloud-config=/etc/kubernetes/config/azure.yaml
         - --cloud-provider=azure
-        - --cluster-cidr={{ .Values.calico.CIDR }}
+        - --cluster-cidr={{ .Values.cluster.calico.CIDR }}
         - --configure-cloud-routes=true
         - --controllers=*,-cloud-node
         - --use-service-account-credentials=true
