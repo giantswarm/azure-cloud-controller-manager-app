@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Remove unused --master flag from daemonset.
+
 ## [1.1.8-gs2] - 2022-03-14
 
 ### Changed

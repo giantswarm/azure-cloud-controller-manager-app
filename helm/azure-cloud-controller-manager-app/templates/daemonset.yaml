@@ -45,7 +45,6 @@ spec:
         - --use-service-account-credentials=true
         - --node-cidr-mask-size=24
         - --kubeconfig=/etc/kubernetes/kubeconfig/controller-manager.yaml
-        - --master=https://kubernetes.default:443
         - --logtostderr=true
         - --port={{ .Values.ports.healthcheck }}
         - --v=2
