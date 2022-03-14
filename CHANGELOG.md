@@ -10,6 +10,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 ### Changed
 
 - Remove unused --master flag from daemonset.
+- Add RBAC rules from upstream example.
+- Add `--route-reconciliation-period` and `--leader-elect` to comply to upstream example.
 
 ## [1.1.8-gs2] - 2022-03-14
 

@@ -43,7 +43,9 @@ spec:
         - --configure-cloud-routes=true
         - --controllers=*,-cloud-node
         - --use-service-account-credentials=true
+        - --route-reconciliation-period=10s
         - --node-cidr-mask-size=24
+        - --leader-elect=true
         - --kubeconfig=/etc/kubernetes/kubeconfig/controller-manager.yaml
         - --logtostderr=true
         - --port={{ .Values.ports.healthcheck }}
@@ -63,8 +65,9 @@ spec:
             host: 127.0.0.1
             path: /healthz
             port: {{ .Values.ports.healthcheck }}
-          initialDelaySeconds: 15
-          timeoutSeconds: 15
+          initialDelaySeconds: 20
+          periodSeconds: 10
+          timeoutSeconds: 5
       volumes:
       - hostPath:
           path: /etc/kubernetes
