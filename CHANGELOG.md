@@ -7,4 +7,7 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
-[Unreleased]: https://github.com/giantswarm/k8s-dns-node-cache-app/compare/v0.0.0...HEAD
+## [1.1.8-gs1] - 2022-03-14
+
+[Unreleased]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.1.8-gs1...HEAD
+[1.1.8-gs1]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v0.0.0...v1.1.8-gs1
