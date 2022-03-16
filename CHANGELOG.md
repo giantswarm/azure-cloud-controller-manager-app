@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.1.8-gs4] - 2022-03-16
+
 ### Changed
 
 - Relax tolerations to make scheduling happen as soon as possible.
@@ -27,7 +29,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [1.1.8-gs1] - 2022-03-14
 
-[Unreleased]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.1.8-gs3...HEAD
+[Unreleased]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.1.8-gs4...HEAD
+[1.1.8-gs4]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.1.8-gs3...v1.1.8-gs4
 [1.1.8-gs3]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.1.8-gs2...v1.1.8-gs3
 [1.1.8-gs2]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.1.8-gs1...v1.1.8-gs2
 [1.1.8-gs1]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v0.0.0...v1.1.8-gs1
