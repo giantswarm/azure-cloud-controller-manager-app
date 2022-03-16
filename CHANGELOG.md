@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Relax tolerations to make scheduling happen as soon as possible.
+
 ## [1.1.8-gs3] - 2022-03-14
 
 ### Changed
