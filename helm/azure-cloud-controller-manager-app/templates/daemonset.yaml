@@ -21,7 +21,7 @@ spec:
         runAsGroup: 0
       serviceAccountName: {{ .Values.name }}
       hostNetwork: true
-      dnsPolicy: ClusterFirstWithHostNet
+      dnsPolicy: Default
       tolerations:
       - operator: "Exists"
       nodeSelector:
