@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Switch `dnsPolicy` to `Default` to allow running the pod when coreDNS is still not healthy.
+
 ## [1.1.8-gs5] - 2022-03-21
 
 ### Added
