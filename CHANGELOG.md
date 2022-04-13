@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Increase LivenessProbe timeouts.
+
 ## [1.1.11-gs1] - 2022-04-13
 
 ### Changed

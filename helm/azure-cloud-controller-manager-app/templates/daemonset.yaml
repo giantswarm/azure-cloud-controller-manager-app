@@ -63,9 +63,9 @@ spec:
             host: 127.0.0.1
             path: /healthz
             port: {{ .Values.ports.healthcheck }}
-          initialDelaySeconds: 20
-          periodSeconds: 10
-          timeoutSeconds: 5
+          initialDelaySeconds: 120
+          periodSeconds: 30
+          timeoutSeconds: 15
       volumes:
       - hostPath:
           path: /etc/kubernetes
