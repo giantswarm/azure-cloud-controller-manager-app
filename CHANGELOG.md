@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Disable node cidr allocation.
+
 ## [1.1.17-gs1] - 2022-07-01
 
 ### Changed
