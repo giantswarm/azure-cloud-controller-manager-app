@@ -34,15 +34,12 @@ spec:
         {{- end }}
         args:
         - --profiling=false
-        - --allocate-node-cidrs=true
         - --cloud-config=/etc/kubernetes/config/azure.yaml
         - --cloud-provider=azure
-        - --cluster-cidr={{ .Values.cluster.calico.CIDR }}
         - --configure-cloud-routes=true
         - --controllers=*,-cloud-node
         - --use-service-account-credentials=true
         - --route-reconciliation-period=10s
-        - --node-cidr-mask-size=24
         - --leader-elect=true
         - --kubeconfig=/etc/kubernetes/kubeconfig/controller-manager.yaml
         - --logtostderr=true
