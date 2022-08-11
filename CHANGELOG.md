@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Set `--cluster-cidr` flag.
+
 ## [1.23.17-gs1] - 2022-08-11
 
 ### Changed

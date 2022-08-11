@@ -36,6 +36,9 @@ spec:
         - --profiling=false
         - --cloud-config=/etc/kubernetes/config/azure.yaml
         - --cloud-provider=azure
+        {{- if .Values.cluster.calico.CIDR }}
+        - --cluster-cidr={{ .Values.cluster.calico.CIDR }}
+        {{- end }}
         - --configure-cloud-routes=true
         - --controllers=*,-cloud-node
         - --use-service-account-credentials=true
