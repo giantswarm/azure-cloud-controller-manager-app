@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.23.17-gs3] - 2022-08-23
+
 ### Changed
 
 - Push to default catalog.
@@ -81,7 +83,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [1.1.8-gs1] - 2022-03-14
 
-[Unreleased]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.23.17-gs2...HEAD
+[Unreleased]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.23.17-gs3...HEAD
+[1.23.17-gs3]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.23.17-gs2...v1.23.17-gs3
 [1.23.17-gs2]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.23.17-gs1...v1.23.17-gs2
 [1.23.17-gs1]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.1.17-gs2...v1.23.17-gs1
 [1.1.17-gs2]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.1.17-gs1...v1.1.17-gs2
