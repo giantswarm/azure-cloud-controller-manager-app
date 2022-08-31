@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Fixed
+
+- Use `node.kubernetes.io/master` nodeSelector.
+
 ## [1.23.17-gs3] - 2022-08-23
 
 ### Changed
