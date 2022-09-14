@@ -8,7 +8,7 @@ serviceType: managed
 image:
   registry: quay.io
   name: giantswarm/azure-cloud-controller-manager
-  tag: v1.23.17
+  tag: v1.24.5
 
 resources:
   limits:
