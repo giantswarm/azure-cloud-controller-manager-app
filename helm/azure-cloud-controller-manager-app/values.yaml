@@ -10,6 +10,12 @@ image:
   name: giantswarm/azure-cloud-controller-manager
   tag: v1.24.5
 
+controller:
+  azureCredentialFile: /etc/kubernetes/config/azure.yaml
+  controlPlaneNodeSelector:
+    "kubernetes.io/role": master
+  kubeconfigFromHost: true
+
 resources:
   limits:
     cpu: 200m
