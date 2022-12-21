@@ -22,6 +22,29 @@ rules:
   - {{ .Values.name }}
   verbs:
   - use
+# doesn't exist in upstream yet
+- apiGroups:
+    - ""
+  resources:
+    - serviceaccounts/token
+  verbs:
+    - create
+    - get
+    - list
+    - watch
+    - update
+# doesn't exist in upstream
+- apiGroups:
+    - ""
+  resources:
+    - configmaps
+  verbs:
+    - get
+    - list
+    - patch
+    - update
+    - watch
+# below is from https://github.com/kubernetes-sigs/cloud-provider-azure/blob/c33f413c0ef58a7c7af4bdaed87fd1a6e4714f99/helm/cloud-provider-azure/templates/cloud-provider-azure.yaml#L19-L110
 - apiGroups:
   - ""
   resources:
