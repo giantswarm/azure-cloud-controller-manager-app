@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Added
+
+- Add support to make `CPI` run on `CAPZ` based clusters.
+
 ## [1.24.5-gs1] - 2022-09-14
 
 ### Changed
