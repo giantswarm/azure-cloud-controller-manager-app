@@ -10,6 +10,7 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 ### Changed
 
 - Disable PSPs for k8s 1.25 and newer.
+- Bump to upstream version 1.24.18.
 
 ## [1.24.6-gs1] - 2022-12-21
 
