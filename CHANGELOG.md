@@ -7,10 +7,6 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
-## [1.24.18-gs2] - 2023-05-09
-
-## [1.24.18-gs2] - 2023-05-09
-
 ### Changed
 
 - Upgrade `Chart.yaml` `apiVersion` from `v1` to `v2` 
