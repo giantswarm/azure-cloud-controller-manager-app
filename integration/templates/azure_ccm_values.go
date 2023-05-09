@@ -6,4 +6,6 @@ package templates
 // AzureCloudControllerManagerValues values required by azure-cloud-controller-manager-app.
 const AzureCloudControllerManagerValues = `
 name: azure-cloud-controller-manager-test
+verticalPodAutoscaler:
+  enabled: false
 `
