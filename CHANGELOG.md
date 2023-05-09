@@ -9,11 +9,11 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [1.24.18-gs2] - 2023-05-09
 
-## [1.24.18-gs2] - 2023-05-09
-
 ### Changed
 
-- Upgrade `Chart.yaml` `apiVersion` from `v1` to `v2` , this is required by `HelmRelease`
+- Upgrade `Chart.yaml` `apiVersion` from `v1` to `v2` 
+  - this is required to get `capabilities` conditional to work with `chart-operator` and `HelmReleases` 
+  - VPA will be installed  
 
 ## [1.24.18-gs1] - 2023-05-03
 
