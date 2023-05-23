@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Use `node-role.kubernetes.io/control-plane: ""` as master node selector.
+
 ## [1.24.18-gs3] - 2023-05-10
 
 ### Changed
