@@ -24,7 +24,7 @@ spec:
       dnsPolicy: Default
       nodeSelector:
         {{-  range $key, $value := $.Values.controller.controlPlaneNodeSelector }}
-        {{ $key }}: {{ $value }}
+        {{ $key }}: {{ $value | quote }}
         {{- end}}
       tolerations:
         - key: node.cloudprovider.kubernetes.io/uninitialized

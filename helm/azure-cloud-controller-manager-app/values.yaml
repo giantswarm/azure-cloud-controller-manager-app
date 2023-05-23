@@ -13,7 +13,7 @@ image:
 controller:
   azureCredentialFile: /etc/kubernetes/config/azure.yaml
   controlPlaneNodeSelector:
-    "kubernetes.io/role": master
+    node-role.kubernetes.io/control-plane: ""
   kubeconfigFromHost: true
 
 resources:
