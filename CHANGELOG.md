@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Fixed
+
+- Added required exceptions for PSS.
+
 ## [1.24.18-gs4] - 2023-05-23
 
 ### Changed
