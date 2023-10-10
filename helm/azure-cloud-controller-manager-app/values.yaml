@@ -38,3 +38,7 @@ test:
 
 verticalPodAutoscaler:
   enabled: true
+
+global:
+  podSecurityStandards:
+    enforced: false
