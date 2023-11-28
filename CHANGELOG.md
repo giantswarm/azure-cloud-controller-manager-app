@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.24.18-gs5] - 2023-11-28
+
 ### Changed
 
 - Update `apptest` to `1.3.0`.
@@ -136,7 +138,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [1.1.8-gs1] - 2022-03-14
 
-[Unreleased]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.24.18-gs4...HEAD
+[Unreleased]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.24.18-gs5...HEAD
+[1.24.18-gs5]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.24.18-gs4...v1.24.18-gs5
 [1.24.18-gs4]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.24.18-gs3...v1.24.18-gs4
 [1.24.18-gs3]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.24.18-gs2...v1.24.18-gs3
 [1.24.18-gs2]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.24.18-gs1...v1.24.18-gs2
