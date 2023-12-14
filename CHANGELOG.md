@@ -7,9 +7,9 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
-### Fixed
+### Added
 
-- Add missing team annotation.
+- Add team label in resources.
 
 ## [1.24.18-gs5] - 2023-11-28
 
