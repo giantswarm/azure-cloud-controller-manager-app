@@ -41,7 +41,8 @@
                     "type": "string"
                 },
                 "registry": {
-                    "type": "string"
+                    "type": "string",
+                    "default": "gsoci.azurecr.io"
                 },
                 "tag": {
                     "type": "string"
