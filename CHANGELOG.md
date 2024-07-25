@@ -7,6 +7,12 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Bump to upstream version v1.26.22.
+- Change `port` to `secure-port`, see https://github.com/kubernetes-sigs/cloud-provider-azure/releases/tag/v1.26.0.
+- Remove `logtostderr` flag, see https://github.com/kubernetes-sigs/cloud-provider-azure/releases/tag/v1.26.0. 
+
 ## [1.24.18-gs6] - 2024-01-23
 
 ### Added
