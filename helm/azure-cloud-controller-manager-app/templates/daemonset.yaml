@@ -52,8 +52,7 @@ spec:
         {{- if .Values.controller.kubeconfigFromHost }}
         - --kubeconfig=/etc/kubernetes/kubeconfig/controller-manager.yaml
         {{- end }}
-        - --logtostderr=true
-        - --port={{ .Values.ports.healthcheck }}
+        - --secure-port={{ .Values.ports.healthcheck }}
         - --v=2
         securityContext:
           allowPrivilegeEscalation: false
