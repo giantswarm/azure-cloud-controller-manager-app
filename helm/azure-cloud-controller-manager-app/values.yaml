@@ -8,7 +8,7 @@ serviceType: managed
 image:
   registry: gsoci.azurecr.io
   name: giantswarm/azure-cloud-controller-manager
-  tag: v1.24.18
+  tag: v1.26.21
 
 controller:
   azureCredentialFile: /etc/kubernetes/config/azure.yaml

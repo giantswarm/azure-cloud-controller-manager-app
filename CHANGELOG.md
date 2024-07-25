@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Bump to upstream version v1.26.21.
+
 ## [1.24.18-gs6] - 2024-01-23
 
 ### Added
