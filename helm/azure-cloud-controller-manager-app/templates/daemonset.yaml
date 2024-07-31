@@ -69,6 +69,7 @@ spec:
             host: 127.0.0.1
             path: /healthz
             port: {{ .Values.ports.healthcheck }}
+            scheme: HTTPS
           initialDelaySeconds: 120
           periodSeconds: 30
           timeoutSeconds: 15
