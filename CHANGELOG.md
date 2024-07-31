@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Fixed
+
+- Use HTTPS scheme for liveness probe.
+
 ## [1.26.22-gs1] - 2024-07-25
 
 ### Changed
