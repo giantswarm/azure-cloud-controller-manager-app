@@ -1,7 +1,3 @@
-# Default values for name: k8s-dns-node-cache-chart
-# This is a YAML-formatted file.
-# Declare variables to be passed into your templates.
-
 name: azure-cloud-controller-manager
 serviceType: managed
 

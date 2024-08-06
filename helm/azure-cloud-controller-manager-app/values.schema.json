@@ -24,13 +24,26 @@
                 "controlPlaneNodeSelector": {
                     "type": "object",
                     "properties": {
-                        "kubernetes.io/role": {
+                        "node-role.kubernetes.io/control-plane": {
                             "type": "string"
                         }
                     }
                 },
                 "kubeconfigFromHost": {
                     "type": "boolean"
+                }
+            }
+        },
+        "global": {
+            "type": "object",
+            "properties": {
+                "podSecurityStandards": {
+                    "type": "object",
+                    "properties": {
+                        "enforced": {
+                            "type": "boolean"
+                        }
+                    }
                 }
             }
         },
@@ -41,8 +54,7 @@
                     "type": "string"
                 },
                 "registry": {
-                    "type": "string",
-                    "default": "gsoci.azurecr.io"
+                    "type": "string"
                 },
                 "tag": {
                     "type": "string"
@@ -111,19 +123,6 @@
             "properties": {
                 "enabled": {
                     "type": "boolean"
-                }
-            }
-        },
-        "global": {
-            "type": "object",
-            "properties": {
-                "podSecurityStandards": {
-                    "type": "object",
-                    "properties": {
-                        "enforced": {
-                            "type": "boolean"
-                        }
-                    }
                 }
             }
         }
