@@ -7,6 +7,12 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.28.10-gs1] - 2024-08-12
+
+### Changed
+
+- Chart: Update to upstream v1.28.10. ([#82](https://github.com/giantswarm/azure-cloud-controller-manager-app/pull/82))
+
 ## [1.27.18-gs1] - 2024-08-12
 
 ### Changed
@@ -168,7 +174,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [1.1.8-gs1] - 2022-03-14
 
-[Unreleased]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.27.18-gs1...HEAD
+[Unreleased]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.28.10-gs1...HEAD
+[1.28.10-gs1]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.27.18-gs1...v1.28.10-gs1
 [1.27.18-gs1]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.26.22-gs2...v1.27.18-gs1
 [1.26.22-gs2]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.26.22-gs1...v1.26.22-gs2
 [1.26.22-gs1]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.24.18-gs6...v1.26.22-gs1
