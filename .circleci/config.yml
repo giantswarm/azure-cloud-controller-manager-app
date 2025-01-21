@@ -16,11 +16,8 @@ workflows:
         filters:
           tags:
             only: /^v.*/
-
           branches:
-            ignore:
-            - main
-            - master
+            only: /.*/
     - architect/push-to-app-catalog:
         name: push-to-default-catalog
         context: architect
@@ -32,6 +29,4 @@ workflows:
           tags:
             only: /^v.*/
           branches:
-            ignore:
-            - main
-            - master
+            only: /.*/

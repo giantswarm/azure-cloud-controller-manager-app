@@ -17,8 +17,9 @@ spec:
     spec:
       priorityClassName: system-node-critical
       securityContext:
-        runAsUser: 0
-        runAsGroup: 0
+        runAsNonRoot: true
+        seccompProfile:
+          type: RuntimeDefault
       serviceAccountName: {{ .Values.name }}
       hostNetwork: true
       dnsPolicy: Default
@@ -56,7 +57,13 @@ spec:
         - --v=2
         securityContext:
           allowPrivilegeEscalation: false
-          privileged: false
+          readOnlyRootFilesystem: true
+          runAsNonRoot: true
+          seccompProfile:
+            type: RuntimeDefault
+          capabilities:
+            drop:
+            - ALL
         volumeMounts:
         - mountPath: /etc/kubernetes/
           name: etc-kubernetes
