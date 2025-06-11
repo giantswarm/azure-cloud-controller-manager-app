@@ -31,6 +31,14 @@
                 },
                 "kubeconfigFromHost": {
                     "type": "boolean"
+                },
+                "workloadIdentity": {
+                    "type": "object",
+                    "properties": {
+                        "clientID": {
+                            "type": "string"
+                        }
+                    }
                 }
             }
         },
