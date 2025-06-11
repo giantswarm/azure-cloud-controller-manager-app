@@ -11,6 +11,8 @@ controller:
   controlPlaneNodeSelector:
     node-role.kubernetes.io/control-plane: ""
   kubeconfigFromHost: true
+  workloadIdentity:
+    clientID: ""
 
 resources:
   limits:

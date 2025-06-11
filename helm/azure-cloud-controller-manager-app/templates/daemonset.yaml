@@ -14,6 +14,9 @@ spec:
     metadata:
       labels:
         {{- include "labels.common" . | nindent 8 }}
+        {{- if .Values.controller.workloadIdentity.clientID }}
+        azure.workload.identity/use: "true"
+        {{- end }}
     spec:
       priorityClassName: system-node-critical
       securityContext:

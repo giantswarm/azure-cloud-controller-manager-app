@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Added
+
+- Add Annotations and labels for use of azure workload identity.
+
 ## [1.30.6-gs1] - 2024-09-03
 
 ### Changed
