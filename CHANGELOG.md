@@ -11,6 +11,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Add Annotations and labels for use of azure workload identity.
 
+### Changed
+
+- Chart: Update to upstream v1.30.13. ([#103](https://github.com/giantswarm/azure-cloud-controller-manager-app/pull/103))
+
 ## [1.30.6-gs1] - 2024-09-03
 
 ### Changed
