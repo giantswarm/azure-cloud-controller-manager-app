@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.30.13-gs1] - 2025-06-18
+
 ### Added
 
 - Add Annotations and labels for use of azure workload identity.
@@ -194,7 +196,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [1.1.8-gs1] - 2022-03-14
 
-[Unreleased]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.30.6-gs1...HEAD
+[Unreleased]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.30.13-gs1...HEAD
+[1.30.13-gs1]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.30.6-gs1...v1.30.13-gs1
 [1.30.6-gs1]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.29.8-gs1...v1.30.6-gs1
 [1.29.8-gs1]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.28.10-gs1...v1.29.8-gs1
 [1.28.10-gs1]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.27.18-gs1...v1.28.10-gs1
