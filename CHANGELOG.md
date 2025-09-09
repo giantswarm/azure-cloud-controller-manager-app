@@ -7,6 +7,12 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.32.7] - 2025-09-09
+
+### Changed
+
+- Switch to semver-compatible release name
+
 ## [1.32.7-gs1] - 2025-09-04
 
 ### Changed
@@ -71,7 +77,7 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Bump to upstream version v1.26.22.
 - Change `port` to `secure-port`, see https://github.com/kubernetes-sigs/cloud-provider-azure/releases/tag/v1.26.0.
-- Remove `logtostderr` flag, see https://github.com/kubernetes-sigs/cloud-provider-azure/releases/tag/v1.26.0. 
+- Remove `logtostderr` flag, see https://github.com/kubernetes-sigs/cloud-provider-azure/releases/tag/v1.26.0.
 
 ## [1.24.18-gs6] - 2024-01-23
 
@@ -110,7 +116,7 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ### Changed
 
-- Upgrade `Chart.yaml` `apiVersion` from `v1` to `v2` 
+- Upgrade `Chart.yaml` `apiVersion` from `v1` to `v2`
   - this is required to get `capabilities` conditional to work with `HelmReleases`
 
 ## [1.24.18-gs1] - 2023-05-03
@@ -214,7 +220,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [1.1.8-gs1] - 2022-03-14
 
-[Unreleased]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.32.7-gs1...HEAD
+[Unreleased]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.32.7...HEAD
+[1.32.7]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.32.7-gs1...v1.32.7
 [1.32.7-gs1]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.31.8-gs1...v1.32.7-gs1
 [1.31.8-gs1]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.30.14-gs1...v1.31.8-gs1
 [1.30.14-gs1]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.30.13-gs1...v1.30.14-gs1
