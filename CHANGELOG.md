@@ -9,6 +9,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [1.32.7] - 2025-09-09
 
+### Changed
+
+- Switch to semver-compatible release name
+
 ## [1.32.7-gs1] - 2025-09-04
 
 ### Changed
@@ -73,7 +77,7 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Bump to upstream version v1.26.22.
 - Change `port` to `secure-port`, see https://github.com/kubernetes-sigs/cloud-provider-azure/releases/tag/v1.26.0.
-- Remove `logtostderr` flag, see https://github.com/kubernetes-sigs/cloud-provider-azure/releases/tag/v1.26.0. 
+- Remove `logtostderr` flag, see https://github.com/kubernetes-sigs/cloud-provider-azure/releases/tag/v1.26.0.
 
 ## [1.24.18-gs6] - 2024-01-23
 
@@ -112,7 +116,7 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ### Changed
 
-- Upgrade `Chart.yaml` `apiVersion` from `v1` to `v2` 
+- Upgrade `Chart.yaml` `apiVersion` from `v1` to `v2`
   - this is required to get `capabilities` conditional to work with `HelmReleases`
 
 ## [1.24.18-gs1] - 2023-05-03
