@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [1.31.8-gs2] - 2025-09-10
+
 ### Changed
 
 - Chart: Update RBAC. ([#117](https://github.com/giantswarm/azure-cloud-controller-manager-app/pull/117))
@@ -212,7 +214,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [1.1.8-gs1] - 2022-03-14
 
-[Unreleased]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.31.8-gs1...HEAD
+[Unreleased]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.31.8-gs2...HEAD
+[1.31.8-gs2]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.31.8-gs1...v1.31.8-gs2
 [1.31.8-gs1]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.30.14-gs1...v1.31.8-gs1
 [1.30.14-gs1]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.30.13-gs1...v1.30.14-gs1
 [1.30.13-gs1]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.30.6-gs1...v1.30.13-gs1
