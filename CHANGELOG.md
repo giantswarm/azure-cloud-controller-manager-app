@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Chart: Update RBAC. ([#120](https://github.com/giantswarm/azure-cloud-controller-manager-app/pull/120))
+
 ## [1.30.14-gs1] - 2025-08-23
 
 ### Changed
