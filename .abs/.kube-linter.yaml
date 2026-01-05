@@ -1,0 +1,13 @@
+checks:
+  exclude:
+    # Cloud controller managers require hostNetwork to communicate with cloud APIs
+    - "host-network"
+    # When using hostNetwork, explicit containerPort declarations aren't required
+    - "liveness-port"
+    # Cloud controller managers may need elevated privileges
+    - "run-as-non-root"
+    # Cloud controller managers may need to write to the filesystem
+    - "no-read-only-root-fs"
+    # ServiceAccount exists in rbac.yaml but KubeLinter can't resolve helm templates
+    - "non-existent-service-account"
+
