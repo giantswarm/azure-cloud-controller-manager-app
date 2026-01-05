@@ -1,0 +1,6 @@
+replace-chart-version-with-git: true
+generate-metadata: true
+chart-dir: ./helm/azure-cloud-controller-manager-app
+destination: build
+catalog-base-url: https://giantswarm.github.io/control-plane-catalog/
+
