@@ -19,14 +19,6 @@ metadata:
   labels:
     {{- include "labels.common" . | nindent 4 }}
 rules:
-- apiGroups:
-  - extensions
-  resources:
-  - podsecuritypolicies
-  resourceNames:
-  - {{ .Values.name }}
-  verbs:
-  - use
 # doesn't exist in upstream yet
 - apiGroups:
     - ""
