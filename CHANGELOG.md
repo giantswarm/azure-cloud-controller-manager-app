@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [2.1.0] - 2026-03-16
+
 ### Removed
 
 - Removed `PodSecurityPolicy`.
@@ -242,7 +244,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [1.1.8-gs1] - 2022-03-14
 
-[Unreleased]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v2.1.0...HEAD
+[2.1.0]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.32.7-1...v2.0.0
 [1.32.7-1]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.32.7...v1.32.7-1
 [1.32.7]: https://github.com/giantswarm/azure-cloud-controller-manager-app/compare/v1.32.7-gs1...v1.32.7
