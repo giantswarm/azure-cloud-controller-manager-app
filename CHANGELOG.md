@@ -15,6 +15,7 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 ### Changed
 
 - Migrate to App Build Suite (ABS).
+- Bump to upstream image v1.35.1
 
 ## [2.0.0] - 2025-12-11
 
