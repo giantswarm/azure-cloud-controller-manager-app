@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Changed
+
+- Chart: Update to upstream v1.36.5.
+
 ## [2.1.0] - 2026-03-16
 
 ### Removed
